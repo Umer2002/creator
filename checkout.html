@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+  crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://crestattire.com/creator/assets/css/responsive.css">
+    <link rel="stylesheet" href="https://crestattire.com/creator/assets/css/style.css">
+    <link rel="stylesheet" href="https://crestattire.com/creator/assets/css/navbar.css">
+    <link rel="stylesheet" href="https://crestattire.com/creator/assets/css/bootstrap-cols.css">
+    <link rel="stylesheet" href="https://crestattire.com/creator/assets/css/footer.css">
+    <link rel="stylesheet" href="https://crestattire.com/creator/assets/css/shop.css">
+    <link rel="stylesheet" href="https://crestattire.com/creator/assets/css/account.css">
+    <link rel="stylesheet" href="https://crestattire.com/creator/assets/css/cart.css">
+    <link rel="stylesheet" href="https://crestattire.com/creator/assets/css/checkout.css">
+    
+    <title>Checkout</title>
+</head>
+<body>
+    <header>
+        <nav class="white-head">
+       <div class="navbar sec-box">
+         <i class='bx bx-menu'></i>
+         <div class="logo"><a href="#"><img class="img-logo" src="https://crestattire.com/creator/assets/images/logo/logo.jpeg" alt=""></a></div>
+         <div class="nav-links" id="phone-menu">
+        
+           <ul class="links sec-box-nav"  id="phone-links">
+             <li><a href="#" > <span class="active-link menu-item">HOME</span> </a></li>
+             <li>
+               <a href="#" class=""> <span class="menu-item">HTML & CSS</span> </a>
+               <i class='bx bxs-chevron-down htmlcss-arrow arrow  none'></i>
+               <ul class="htmlCss-sub-menu sub-menu">
+                 <li><a href="#" class="underline">Web Design</a></li>
+                 <li><a href="#" class="underline">Login Forms</a></li>
+                 <li><a href="#" class="underline">Card Design</a></li>
+                 <li class="more">
+               <div> <a href="#" class="underline">More </a> 
+                   </div>  
+                   <i class="fas fa-angle-right"></i>
+                   <ul class="more-sub-menu sub-menu">
+                     <li><a href="#"  class="underline">Neumorphism</a></li>
+                     <li><a href="#" class="underline">Pre-loader</a></li>
+                     <li><a href="#" class="underline">Glassmorphism</a></li>
+                   </ul>
+                 </li>
+               </ul>
+             </li>
+             <li>
+               <a href="#"> <span class="menu-item">JAVASCRIPT</span></a>
+               <i class='bx bxs-chevron-down js-arrow arrow none'></i>
+               <ul class="js-sub-menu sub-menu">
+                 <li><a href="#" class="underline">Dynamic Clock</a></li>
+                 <li><a href="#" class="underline">Form Validation</a></li>
+                 <li><a href="#" class="underline">Card Slider</a></li>
+                 <li><a href="#" class="underline">Complete Website</a></li>
+               </ul>
+             </li>
+             <li><a href="#"><span class="menu-item">ABOUT US</span></a></li>
+             <li><a href="#"> <span class="menu-item">CONTACT US</span></a></li>
+           </ul>
+         </div>
+         <div class="nav-end">
+            <div class="cart-box">
+           <i class='bx bx-cart'></i> 
+           <div class="cart">
+               <p>No products in cart</p>
+           </div>
+         </div>
+         <div class="search-box">
+           <i class='bx bx-search' id="search-ico"></i>
+           <div class="input-box">
+               <i class='bx bx-x' id="close-ico" style="    color: #fff !important;
+               width: fit-content;
+               height: fit-content;
+               margin-left: auto;
+               display: block;
+               margin-right: 20px;"></i>
+               <div class="inp-div">  
+                      <label for="">Search</label>
+                     <input type="text" >      <i class='bx bx-search' style="color: white !important;"></i>
+               </div>
+           
+           </div>
+         </div>
+         </div>
+        
+       </div>
+     </nav>
+   </header>
+
+<main>
+
+    <section class="checkout-sec">
+        <div class="sec-box">
+            <h4 class="breadcumb-title">Checkout</h4>
+            <p class="breadcumb-para">CREATOR / Checkout</p>
+        </div>
+    </section>
+
+<section class="c-out">
+    <div class="sec-box">
+        <div class="cust-info">
+            Returning Cusotmer? <a href="#">Click here to login</a>
+        </div>
+         <div class="cust-info">
+            Have a coupon? <a href="#">Click here to enter your code</a>
+        </div>
+        <form>
+            <div class="form-row">
+                <div class="form-col">
+                    <h3>Billing Details</h3>
+                    <p class="form-col">
+                    <input type="text" placeholder="First Name">    
+                    </p>
+                    <p class="form-col">
+                    <input type="text" placeholder="Last Name">    
+                    </p>
+                    
+                </div>
+                   <div class="form-col">
+                       <h3>ADDITIONAL INFORMATION
+</h3>
+<p class="form-wide">
+    <textarea placeholder="Notes about your order, e.g. special notes for delivery." rows="2" cols="5"></textarea>
+</p>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+   
+
+
+</main>
+
+<footer>
+<div class="footer-top">
+<div class="sec-box">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 footer-col">
+            <div class="empty-space"></div>
+<h2 class="footer-title">
+    Twitter Feed
+</h2>
+<ul class="twitter-side">
+    <li>
+     <p>
+         <a href="">@QUICKPRO5</a> <a href="">@CSSDESIGNAWARDS</a> Hey, please check your inbox for more details.
+     </p>
+    </li>
+    <li>
+        <p>
+            <a href="">@@GEORGIAANNEUK</a> Poedit is a software and you can download it here
+  
+            <a href="">@HTTPS://T.CO/SLOTDPS7JF.</a>You can see how we use it… <a href="">@HTTPS://T.CO/AEBTHGZYRA</a>
+        </p>
+       </li>
+</ul>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 footer-col">
+<div class="footer-logo mb-20">
+    <img src="assets/images/home/creator-logo-footer.png" alt="">
+</div>
+<ul>
+    <li>
+        <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque natus error sit voluptatem accusantium.
+        </p>
+    </li>
+    <li>
+        <div class="footer-social">
+         <a href=""> <i class="fab fa-facebook"></i></a>  
+         <a href=""> <i class="fab fa-facebook"></i></a>  
+         <a href=""> <i class="fab fa-facebook"></i></a>  
+         <a href=""> <i class="fab fa-facebook"></i></a>  
+         <a href=""> <i class="fab fa-facebook"></i></a>  
+       
+        </div>
+    </li>
+    <li>
+        <p>
+            +51448592568
+
+        </p>
+
+        <p>
+            creator@example.com
+
+
+        </p>
+   
+        <p>
+            Eighth Avenue 487, New York
+
+
+        </p>
+    </li>
+   
+</ul>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 footer-col">
+            <div class="empty-space"></div>
+<h2 class="footer-title">
+    LATEST POSTS
+</h2>
+<ul class="post-side">
+    <li>
+     <p>
+         <a href="">Minimalist Home Designs</a> <br> <span>15 Sep, 2016</span>
+     </p>
+    </li>
+    <li>
+     <p>
+         <a href="">Minimalist Home Designs</a> <br> <span>15 Sep, 2016</span>
+     </p>
+    </li>
+    <li>
+     <p>
+         <a href="">Minimalist Home Designs</a> <br> <span>15 Sep, 2016</span>
+     </p>
+    </li>
+    <li>
+     <p>
+         <a href="">Minimalist Home Designs</a> <br> <span>15 Sep, 2016</span>
+     </p>
+    </li>
+    
+</ul>
+        </div>
+    </div>
+</div>
+</div>
+<div class="footer-bottom">
+   <p>
+    @ 2016 Qode Interactive, All Rights Reserved
+   </p>
+</div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>

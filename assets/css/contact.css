@@ -1,0 +1,137 @@
+
+.contact-body .banner-sec{
+     background-image: url(https://creator.qodeinteractive.com/wp-content/uploads/2016/11/page16-contact-us-title-img-1.jpg);
+}
+.getintouch .banner-sec{
+     background-image: url(https://creator.qodeinteractive.com/wp-content/uploads/2016/11/page15-contact-me-title-img1.jpg);
+}
+.cont{
+padding-top: 97px ;
+    padding-bottom: 90px ;
+}
+.contact-title{
+    font-size: 35px;
+    color: #333333;
+    line-height: 57px;
+    text-transform: Uppercase;
+    letter-spacing: 8.5px;
+    font-family: Rokkitt,serif;
+        font-weight: 400;
+}
+.contact-body p{
+       font-family: "Noto Serif",serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #8f8f8f;
+    font-weight: 400;
+}
+.contact-body h6{
+        width: 100%;
+    margin-bottom: 11px;
+    color: #333;
+    font-size: 13px;
+  
+}
+.form-group{
+    margin: 10px 0;
+}
+.contact-body .contact-content ul {
+list-style:none;
+padding:0;
+margin-top:30px;
+}
+.contact-body .contact-content ul li{
+        margin-bottom: 24px;
+}
+.contact-detail *{
+    text-align:center;
+}
+ h5{
+        text-transform: Uppercase;
+    font-weight: 600;
+    margin: 0;
+        color: #333;
+        font-size: 16px;
+            letter-spacing: 2px;
+                text-align: center;
+}
+.contact-detail-header{
+    position:relative;
+}
+.hoverimg{
+        position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    transition: opacity .3s ease-out;
+}
+.contact-detail-header:hover .hoverimg{
+     opacity: 1;
+}
+.contact-detail h6{
+        color: #8f8f8f;
+            font-size: 14px;
+    letter-spacing: 1px;
+    margin: 10px 0 15px;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Rokkitt,serif;
+}
+.contact-body input, .contact-body textarea{
+    width: 100%;
+    margin-bottom: 4px;
+    padding: 18px 22px;
+    border: 2px solid #ebebeb;
+    outline: 0;
+    font-size: 11px;
+    background-color: #fff;
+    color: #909090;
+    text-transform: uppercase;
+    font-weight: 600;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Rokkitt,serif;
+    -webkit-transition: border .3s ease;
+    -moz-transition: border .3s ease;
+    transition: border .3s ease;
+    -webkit-appearance: none;
+    letter-spacing: 1px;
+}
+.map iframe{
+    width:100%;
+    height:470px;
+}
+.cont button:hover{
+        background-color: #a27d53;
+}
+.cont button{
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 600;
+    padding: 18px 40px 18px 43px;
+    font-size: 11px;
+    line-height: 14px;
+    text-transform: uppercase;
+    margin-top: 3px;
+    letter-spacing: 2px;
+    font-family: "Open Sans",sans-serif;
+    background-color: #b79c7d;
+    border: none;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: color .15s ease-out,background-color .15s ease-out,border-color .15s ease-out;
+    -moz-transition: color .15s ease-out,background-color .15s ease-out,border-color .15s ease-out;
+    transition: color .15s ease-out,background-color .15s ease-out,border-color .15s ease-out;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

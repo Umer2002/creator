@@ -1,0 +1,82 @@
+footer{
+    background-image: url(https://crestattire.com/creator/assets/images/home/footer-bckg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    padding: 50px 0 34px;
+    padding-bottom: 0;
+}
+footer *{
+    text-align: center;
+}
+footer .footer-title{
+    color: #fff;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    font-weight: 600;
+font-size: 14px;
+}
+footer .footer-col{
+    padding: 0 15px;
+}
+footer ul {
+    list-style: none;
+}
+footer ul li{
+    padding-bottom: 25px;
+
+}
+footer ul li p{
+    color: #d4d4d4;
+    font-size: 13px;
+    font-family: Rokkitt,serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-weight: 400;
+}
+footer .twitter-side li a{
+    color: #b79c7d;
+}
+.footer-logo{
+    border-bottom: 2px solid #c7b299;
+    padding-bottom: 10px;
+}
+.footer-social{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.footer-social{
+    color: #d4d4d4;
+    font-size: 20px;
+}
+footer .post-side a{
+    color: #d4d4d4;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Noto Serif",serif;
+    text-transform: none;
+}
+footer .post-side span{
+    display: block;
+    font-size: 13px;
+    color: #8d8d8d;
+}
+footer .footer-bottom{
+    background: #fff;
+padding: 15px 10px;
+margin-top: 30px;
+}
+footer .footer-bottom p{
+    color: #b79c7d;
+}
+@media(min-width:1024px){
+    footer .footer-col{
+        padding: 0 51px;
+    }  
+}

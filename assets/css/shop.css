@@ -1,0 +1,127 @@
+
+.banner-para{
+    color: #fff;
+    text-align: center;
+}
+.shop-sec{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #EBEBEB;
+    height:290px;
+    padding-top: 70px;
+}
+
+.shop-products{
+    min-height: 50vh;
+    padding: 85px 40px;
+}
+
+.box-gap{
+    margin-bottom: 50px;
+}
+
+.prod-text{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.a1{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.a1:hover{
+    color: #b79c7d;
+}
+.rate{
+    color: #333333;
+    font-size: 20px;
+}
+.para-1{
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 400;
+    color: #858585;
+    font-family: "Noto Serif",serif;
+}
+#stars{
+    color: #b79c7d;
+    font-size: 12px;
+}
+
+#star-1{
+    color: #b7b7b7;
+    font-size: 12px;
+}
+.cart-btn{
+    min-width: 180px;
+    font-weight: 600;
+    font-family: "Open Sans",sans-serif;
+    padding: 18px 40px 18px 43px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #fff;
+    color: #000;
+    outline: 0.14em dotted red !important;
+    outline-offset: 0.2em;
+    position: absolute;
+    z-index: 0;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cart-btn:hover .cart-overlay{
+    transform: scaleY(1);
+    opacity: 1;
+    -webkit-transition: -webkit-transform .35s ease-in-out,opacity 0s;
+}
+.cart-btn:hover .cart-text{
+z-index: 100;
+    color: #fff;
+}
+.cart-overlay{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(183, 156, 125);
+    left: 0;
+    height: 100%;
+    transform-origin: bottom center;
+    z-index: 2;
+    opacity: 0;
+    transition: transform 0s ease-in-out .35s,opacity ease-in-out .35s;
+    -webkit-transition: -webkit-transform 0s ease-in-out .35s,opacity ease-in-out .35s;
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    transform: scaleY(0);
+    z-index: -1;
+    display: block;
+}
+.cart-overlay-bg{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0,0,0,.2);
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+
+}
+.products:hover .cart-overlay-bg{
+    opacity: 1;
+}
+.products{
+    position: relative;
+    overflow: hidden;
+}

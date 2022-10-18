@@ -1,0 +1,206 @@
+
+body{
+    overflow-x: hidden;
+    font-family: "Noto Serif",serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #8f8f8f;
+    font-weight: 400;
+    overflow-x: hidden!important;
+    -webkit-font-smoothing: antialiased;
+}
+.banner-para{
+    color: #fff;
+    text-align: center;
+}
+.cart-sec{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #ebebeb;
+    height:290px;
+    padding-top: 70px;
+}
+.head-1{
+    font-size: 28px;
+    letter-spacing: 2px;
+     color: #444;
+     font-weight: 400;
+}
+.cart-para{
+    font-size: 14px;
+    color: #909090;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.cart-div{
+    min-height: 50vh;
+    padding: 85px 0px;
+}
+.main{
+    text-align: center;
+}
+.main-head{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.btn-1{
+    outline: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Open Sans",sans-serif;
+    padding: 18px 40px 18px 43px;
+    font-size: 11px;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #b79c7d;
+    border: none;
+    border-bottom: 2px solid #a27d53;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+table td, table th {
+    text-align: center;
+}
+ .shop_table tbody tr td {
+    padding: 20px 10px;
+}
+table img {
+    width: 80px;
+    max-width: 100%;
+    height: auto;
+}
+.eltd-quantity-buttons {
+    display: inline-block;
+    border: 2px solid #ebebeb;
+    height: 52px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 18px;
+}
+.clearfix:after, .clearfix:before {
+    content: " ";
+    display: table;
+}
+ .eltd-quantity-input {
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+    width: 48px;
+    float: left;
+    padding: 0;
+    line-height: 48px !important;
+    text-align: center;
+    font-size: 15px !important;
+    color: #444 !important;
+    font-weight: 600 !important;
+    margin: 0;
+}
+.quantity-control {
+    border-left: 2px solid #ebebeb;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+.eltd-quantity-plus {
+    border-bottom: 1px solid #ebebeb;
+}
+.eltd-quantity-minus {
+    border-top: 1px solid #ebebeb;
+}
+.eltd-quantity-buttons .eltd-quantity-minus, .eltd-quantity-buttons .eltd-quantity-plus {
+    display: block;
+    width: 27px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    line-height: 23px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #909090;
+}
+tr {
+    border: 2px solid #ebebeb !important;
+}
+.shop_table thead>tr>th {
+    color: #333;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Rokkitt,serif;
+    padding: 13px 0;
+    letter-spacing: 1px;
+}
+.cart_item td *{
+        font-family: "Noto Serif",serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #8f8f8f;
+    font-weight: 400;
+
+}
+table td {
+    vertical-align: middle;
+}
+ td.product-remove {
+    border-right: 1px solid #e0dede;
+}
+ .eltd-cart-totals h3 {
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 1.44em;
+    font-weight: 400;
+    letter-spacing: 2px;
+        font-size: 25px;
+    font-family: Rokkitt,serif;
+    text-transform: uppercase;
+    color:#333;
+    margin:25px 0;
+}
+.eltd-cart-totals tr th:first-child {
+    width: 20%;
+    text-align: left;
+    padding-left: 50px;
+}
+.eltd-cart-totals tr th {
+    font-family: Rokkitt,serif;
+    color: #333;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.eltd-cart-totals table th {
+    vertical-align: middle;
+    border-right: none;
+}
+.eltd-cart-totals tr>td {
+    text-align: left;
+}
+.wc-proceed-to-checkout {
+
+    margin-top: 15px;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free" !important;
+}
+.fa, .fas {
+    font-weight: 900 !important;
+}
+@media(max-width:576px){
+    .main-head {
+   
+    max-width: 300px;
+    margin: 0 auto 35px auto;
+}
+}

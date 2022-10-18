@@ -1,0 +1,108 @@
+#left1{
+    background-image:url('https://creator.qodeinteractive.com/wp-content/uploads/2016/11/split-image1.1.jpg');
+        padding: 0px;
+    text-align: center;
+    height: 100%;
+    
+    background-size: cover;
+}
+#right1{
+        background-image: url(https://creator.qodeinteractive.com/wp-content/uploads/2016/11/split-image1.2.jpg);
+    padding: 0px 8% 0px 26%;
+    text-align: left;
+    height: 100%;
+        background-position: 0 center!important;
+    background-size: cover;
+}
+#left2{
+        background-image: url(https://creator.qodeinteractive.com/wp-content/uploads/2016/11/split-image2.1..jpg);
+    padding: 0px 20%;
+    text-align: left;
+    height: 100%;
+        background-size: cover;
+}
+#right2{
+    background-image: url(https://creator.qodeinteractive.com/wp-content/uploads/2016/11/split-image3.1..jpg);
+    padding: 0px;
+    text-align: left;
+    height: 100%;
+        background-position: 0 center!important;
+    background-size: cover;
+}
+#left3{
+        background-image: url(https://creator.qodeinteractive.com/wp-content/uploads/2016/11/split-image2.2.jpg);
+    padding: 0px;
+    text-align: left;
+    height: 100%;
+    background-size: cover;
+}
+#right3{
+      background-image: url(https://creator.qodeinteractive.com/wp-content/uploads/2016/11/split-image3.2.jpg);
+    padding: 0px 13% 0px 30%;
+    text-align: left;
+    height: 100%;
+}
+#left4{
+        background-image: url(https://creator.qodeinteractive.com/wp-content/uploads/2016/11/split-image4.1.jpg);
+    padding: 0px 25% 0px 20%;
+    text-align: left;
+    height: 100%;
+        background-size: cover;
+}
+#right4{
+    background-image: url(https://creator.qodeinteractive.com/wp-content/uploads/2016/11/split-image4.2.jpg);
+    padding: 0px;
+    text-align: left;
+    height: 100%;
+    background-position: 0 center!important;
+    background-size: cover;
+}
+h5{
+    font-family: Rokkitt;
+    font-size: 24px;
+    line-height: 50px;
+    font-weight: 400;
+    letter-spacing: 7px;
+    text-transform: Uppercase;
+    text-align: left;
+    color: #333333;
+}
+h2{
+        font-family: Rokkitt;
+    font-size: 70px;
+    line-height: 72px;
+    font-weight: 400;
+    letter-spacing: 20px;
+    text-transform: Uppercase;
+    text-align: left;
+    color: #333333;
+}
+p{
+        font-family: Noto Serif;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #919090;
+}
+.title-underline-left{
+    font-family: Rokkitt,serif;
+    color: #333;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.1em;
+    letter-spacing: 8.5px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.title-underline-left::before{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -30%;
+    background: #b79c7d;
+    width: 40%;
+    height: 2px;
+}
