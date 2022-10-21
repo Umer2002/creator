@@ -55,6 +55,7 @@ a{
 
 .inline-block{
     display: inline-block;
+    justify-content: center;
 }
 .m-0{
     margin: 0;
